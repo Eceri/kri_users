@@ -12,7 +12,7 @@ const Profile = () => {
           setUserInfo(res);
           console.log("Authenticated user", res);
         })
-        .catch(err => console.err(err));
+        .catch(err => console.log(err));
     }, []);
 
   const saveProfile = () => {

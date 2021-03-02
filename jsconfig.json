@@ -3,10 +3,10 @@
     "baseUrl": ".",
     "paths": {
       "@/modules/*": [
-        "components/modules/*"
+        "src/components/modules/*"
       ],
       "@/elements/*": [
-        "components/elements/*"
+        "src/components/elements/*"
       ]
     }
   },
